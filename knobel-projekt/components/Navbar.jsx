@@ -9,12 +9,12 @@ export default function Navbar() {
         </div>
         <ul className="flex space-x-4">
           <li>
-            <Link href="/aboutPages" className="hover:text-gray-300">
+            <Link href="/about" className="hover:text-gray-300">
               About U
             </Link>
           </li>
           <li>
-            <Link href="/Filmbibliothek" className="hover:text-gray-300">
+            <Link href="/film" className="hover:text-gray-300">
               Film Bibliothek
             </Link>
           </li>

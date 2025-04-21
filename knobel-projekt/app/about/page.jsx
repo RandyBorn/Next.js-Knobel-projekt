@@ -1,20 +1,16 @@
 import React from "react";
-import WindowResizeLogger from "../components/WindowResizeLogger";
-import UserInfoForm from "../components/UserInfoForm";
+// import WindowResizeLogger from "@/components/WindowResizeLogger";
+// import UserInfoForm from "@/components/UserInfoForm";
 
-function About() {
+function AboutPage() {
   return (
     <>
       <div className="aboutbody">
         <div className="aboutfirst">
           <h3>The size of the Screen could be important...</h3>
-          <div className="aboutfirstin">
-            <WindowResizeLogger />
-          </div>
+          <div className="aboutfirstin">{/* <WindowResizeLogger /> */}</div>
         </div>
-        <div className="aboutsecond">
-          <UserInfoForm />
-        </div>
+        <div className="aboutsecond">{/* <UserInfoForm /> */}</div>
         <div className="aboutthird">
           <p>Anzahl logischer Prozessoren: 8</p>
           <p>Ram: 8GB</p>
@@ -28,4 +24,4 @@ function About() {
   );
 }
 
-export default About;
+export default AboutPage;
