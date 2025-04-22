@@ -7,7 +7,7 @@ function AboutPage() {
   return (
     <>
       <Navbar />
-      <section className="aboutpage border-2 border-b-blue-100 bg-blue-50 display flex flex-col justify-center items-center">
+      <section className="aboutpage border-2 border-b-blue-100 bg-blue-200 display flex flex-col justify-center items-center">
         <h3>The size of the Screen could be important...</h3>
         <div className="aboutbody  ">
           <section className="aboutsection md:bg-blue-500 text-red-700 m-6 border-8 border-b-blue-800-300">

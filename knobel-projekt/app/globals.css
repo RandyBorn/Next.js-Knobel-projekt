@@ -20,7 +20,7 @@
 }
 
 body {
-  background: var(--background);
+  background: rgb(187, 187, 157);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -46,9 +46,3 @@ body {
   /* background-color: #7991af; */
   border-radius: 10px;
 }
-/* 
-@media (min-width: 917px) and (max-width: 768px) {
-  body {
-    border-color: green;
-  }
-} */
