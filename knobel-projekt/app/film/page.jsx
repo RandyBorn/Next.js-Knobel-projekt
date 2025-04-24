@@ -1,7 +1,10 @@
 import React from "react";
 
 function FilmPage() {
-  return <div></div>;
+  return (
+
+    
+  )
 }
 
 export default FilmPage;
